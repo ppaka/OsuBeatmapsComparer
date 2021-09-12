@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using OsuParsers;
 
 namespace OsuBeatmapsComparer
 {
@@ -86,7 +84,7 @@ namespace OsuBeatmapsComparer
             Console.WriteLine("아무키나 눌러 다운로드를 시작합니다");
             Console.ReadLine();
 
-            await AddBeatmap(1115477);
+            // await AddBeatmap(1115477);
         }
 
         private static string BaseUrl => @"https://osu.ppy.sh/beatmapsets/";

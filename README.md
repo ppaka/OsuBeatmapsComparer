@@ -1,5 +1,4 @@
 완성되어지지 않은 프로젝트입니다
-WON'T WORKING NOW
 
 # OsuBeatmapsComparer
 오스 비트맵 비교
